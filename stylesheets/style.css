@@ -1,0 +1,325 @@
+/* line 5, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p547/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/style.scss */
+.header {
+  position: absolute;
+  display: block;
+  left: 0px;
+  height: 80px;
+  top: 0px;
+  width: 100%;
+  border-bottom: 1px solid #D6D8DD;
+  box-shadow: 2px 2px 5px #909090;
+}
+/* line 13, ../sass/style.scss */
+.header .ul {
+  display: inline-block;
+  left: 20px;
+}
+/* line 16, ../sass/style.scss */
+.header .ul .li {
+  float: left;
+  margin-left: 40px;
+}
+/* line 19, ../sass/style.scss */
+.header .ul .li .icon {
+  width: 30px;
+  height: 30px;
+}
+/* line 25, ../sass/style.scss */
+.header .bird {
+  width: 40px;
+  height: 40px;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+/* line 31, ../sass/style.scss */
+.header .search {
+  height: 60px;
+  width: 160px;
+  margin-left: 30%;
+  margin-top: 0px;
+}
+/* line 38, ../sass/style.scss */
+.header .yellowMan {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+/* line 46, ../sass/style.scss */
+.left, .right {
+  position: absolute;
+  top: 80px;
+  width: 300px;
+  height: 1000px;
+}
+
+/* line 53, ../sass/style.scss */
+.left {
+  left: 0px;
+  background: #5694E6;
+}
+/* line 56, ../sass/style.scss */
+.left .face1 {
+  width: 100px;
+  height: 100px;
+  margin-top: 55px;
+  margin-left: 90px;
+  border-radius: 60%;
+}
+/* line 63, ../sass/style.scss */
+.left .name {
+  margin-top: 20px;
+  margin-left: 90px;
+  font-size: 20px;
+  color: white;
+}
+/* line 69, ../sass/style.scss */
+.left .paragraph {
+  text-align: center;
+  color: #D6D8DD;
+  font-size: 16px;
+}
+/* line 74, ../sass/style.scss */
+.left .button {
+  background-color: #5C6CB9;
+  border-radius: 28px;
+  width: 150px;
+  height: 40px;
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 24px;
+  color: #D6D8DD;
+  border: 0px;
+}
+/* line 86, ../sass/style.scss */
+.left .firstWall {
+  margin-top: 40px;
+}
+/* line 88, ../sass/style.scss */
+.left .firstWall .photoLi {
+  float: left;
+}
+/* line 90, ../sass/style.scss */
+.left .firstWall .photoLi .photo {
+  width: 100px;
+  height: 100px;
+}
+/* line 98, ../sass/style.scss */
+.left .secondWall .photoLi {
+  float: left;
+}
+/* line 100, ../sass/style.scss */
+.left .secondWall .photoLi .photo {
+  width: 100px;
+  height: 100px;
+}
+/* line 108, ../sass/style.scss */
+.left .thirdWall .photoLi {
+  float: left;
+}
+/* line 110, ../sass/style.scss */
+.left .thirdWall .photoLi .photo {
+  width: 100px;
+  height: 100px;
+}
+
+/* line 119, ../sass/style.scss */
+.main {
+  position: absolute;
+  background: #DDDFDF;
+  height: 1000px;
+  left: 300px;
+  right: 300px;
+  margin-top: 80px;
+  width: 825px;
+}
+/* line 127, ../sass/style.scss */
+.main .top {
+  margin-top: 50px;
+  margin-left: 40px;
+  background: white;
+  width: 745px;
+  height: 100px;
+  box-shadow: 2px 2px 10px #909090;
+}
+/* line 135, ../sass/style.scss */
+.main .top .total .item {
+  float: left;
+  margin-top: 25px;
+  margin-left: 68px;
+}
+/* line 139, ../sass/style.scss */
+.main .top .total .item .itemName {
+  color: #D6D8DD;
+}
+/* line 143, ../sass/style.scss */
+.main .top .total .item .itemNum {
+  font-weight: bold;
+  font-size: 26px;
+}
+/* line 150, ../sass/style.scss */
+.main .top .line {
+  margin-left: 0px;
+  margin-top: 180px;
+  width: 150px;
+  height: 1px;
+  color: blue;
+}
+/* line 159, ../sass/style.scss */
+.main .middle {
+  margin-top: 30px;
+  margin-left: 40px;
+  width: 745px;
+  height: 820px;
+  background: white;
+  box-shadow: 2px 2px 10px #909090;
+}
+/* line 167, ../sass/style.scss */
+.main .middle .microblogs .blog {
+  display: inline-block;
+  border-bottom: 1px solid #BEC0C0;
+}
+/* line 170, ../sass/style.scss */
+.main .middle .microblogs .blog .avatar {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+  border-radius: 60%;
+  vertical-align: top;
+}
+/* line 179, ../sass/style.scss */
+.main .middle .microblogs .blog .user {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+/* line 186, ../sass/style.scss */
+.main .middle .microblogs .blog .toUser {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 5px;
+  color: #BEC0C0;
+}
+/* line 193, ../sass/style.scss */
+.main .middle .microblogs .blog .hour {
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 433px;
+  color: #BEC0C0;
+}
+/* line 200, ../sass/style.scss */
+.main .middle .microblogs .blog .message {
+  display: inline-block;
+  margin-left: 94px;
+  margin-right: 40px;
+}
+/* line 206, ../sass/style.scss */
+.main .middle .microblogs .blog .tools {
+  margin-left: 65px;
+  margin-top: 20px;
+}
+/* line 209, ../sass/style.scss */
+.main .middle .microblogs .blog .tools .tool {
+  float: left;
+  margin-left: 30px;
+}
+/* line 212, ../sass/style.scss */
+.main .middle .microblogs .blog .tools .tool .bar {
+  width: 20px;
+  height: 20px;
+}
+/* line 218, ../sass/style.scss */
+.main .middle .microblogs .blog .tools .lastTool {
+  margin-left: 470px;
+  float: left;
+}
+/* line 221, ../sass/style.scss */
+.main .middle .microblogs .blog .tools .lastTool .bar {
+  width: 20px;
+  height: 20px;
+}
+
+/* line 233, ../sass/style.scss */
+.right {
+  right: 0px;
+}
+/* line 235, ../sass/style.scss */
+.right .title {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+/* line 240, ../sass/style.scss */
+.right .link {
+  display: block;
+  margin-left: 40px;
+  margin-top: 2px;
+  color: #5694E6;
+}
